@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7CFE444A9EA19C88AE9BED6B /* Pods_OneLab.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6693DEB78E80D18EA4EF0B1D /* Pods_OneLab.framework */; };
+		B39D619B29D2BE980026657B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39D619A29D2BE980026657B /* AppDelegate.swift */; };
+		B39D619D29D2BE990026657B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39D619C29D2BE990026657B /* SceneDelegate.swift */; };
+		B39D619F29D2BE990026657B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39D619E29D2BE990026657B /* ViewController.swift */; };
+		B39D61A429D2BE9B0026657B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B39D61A329D2BE9B0026657B /* Assets.xcassets */; };
+		B39D61A729D2BE9B0026657B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B39D61A529D2BE9B0026657B /* LaunchScreen.storyboard */; };
+		B39D61AF29D30AF50026657B /* StackViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39D61AE29D30AF50026657B /* StackViewViewController.swift */; };
+		B39D61B129D34C2C0026657B /* ItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39D61B029D34C2C0026657B /* ItemViewController.swift */; };
+		B3F4010D29D3647A002DE985 /* AdaptiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F4010C29D3647A002DE985 /* AdaptiveViewController.swift */; };
+		B3F4010F29D366F4002DE985 /* TwoEqualWidthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F4010E29D366F4002DE985 /* TwoEqualWidthViewController.swift */; };
+		B3F4011129D36811002DE985 /* TwoDifferentWidthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F4011029D36811002DE985 /* TwoDifferentWidthViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		152A83D89C081937512CDC7E /* Pods-OneLab.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneLab.debug.xcconfig"; path = "Target Support Files/Pods-OneLab/Pods-OneLab.debug.xcconfig"; sourceTree = "<group>"; };
+		6693DEB78E80D18EA4EF0B1D /* Pods_OneLab.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OneLab.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A5FB60CB7B8C1E73014ADF2 /* Pods-OneLab.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneLab.release.xcconfig"; path = "Target Support Files/Pods-OneLab/Pods-OneLab.release.xcconfig"; sourceTree = "<group>"; };
+		B39D619729D2BE980026657B /* OneLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OneLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B39D619A29D2BE980026657B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B39D619C29D2BE990026657B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B39D619E29D2BE990026657B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B39D61A329D2BE9B0026657B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B39D61A629D2BE9B0026657B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B39D61A829D2BE9B0026657B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B39D61AE29D30AF50026657B /* StackViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackViewViewController.swift; sourceTree = "<group>"; };
+		B39D61B029D34C2C0026657B /* ItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemViewController.swift; sourceTree = "<group>"; };
+		B3F4010C29D3647A002DE985 /* AdaptiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdaptiveViewController.swift; sourceTree = "<group>"; };
+		B3F4010E29D366F4002DE985 /* TwoEqualWidthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoEqualWidthViewController.swift; sourceTree = "<group>"; };
+		B3F4011029D36811002DE985 /* TwoDifferentWidthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoDifferentWidthViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B39D619429D2BE980026657B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CFE444A9EA19C88AE9BED6B /* Pods_OneLab.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27FF4E1DAC4B0609435DA9C6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6693DEB78E80D18EA4EF0B1D /* Pods_OneLab.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B360FBB029D4410900E3E9D6 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B3F4010E29D366F4002DE985 /* TwoEqualWidthViewController.swift */,
+				B3F4011029D36811002DE985 /* TwoDifferentWidthViewController.swift */,
+				B39D61B029D34C2C0026657B /* ItemViewController.swift */,
+				B39D619E29D2BE990026657B /* ViewController.swift */,
+				B3F4010C29D3647A002DE985 /* AdaptiveViewController.swift */,
+				B39D61AE29D30AF50026657B /* StackViewViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		B39D618E29D2BE980026657B = {
+			isa = PBXGroup;
+			children = (
+				B39D619929D2BE980026657B /* OneLab */,
+				B39D619829D2BE980026657B /* Products */,
+				D8D23114895659C51CA6C1FB /* Pods */,
+				27FF4E1DAC4B0609435DA9C6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B39D619829D2BE980026657B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B39D619729D2BE980026657B /* OneLab.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B39D619929D2BE980026657B /* OneLab */ = {
+			isa = PBXGroup;
+			children = (
+				B360FBB029D4410900E3E9D6 /* ViewControllers */,
+				B39D619A29D2BE980026657B /* AppDelegate.swift */,
+				B39D619C29D2BE990026657B /* SceneDelegate.swift */,
+				B39D61A329D2BE9B0026657B /* Assets.xcassets */,
+				B39D61A529D2BE9B0026657B /* LaunchScreen.storyboard */,
+				B39D61A829D2BE9B0026657B /* Info.plist */,
+			);
+			path = OneLab;
+			sourceTree = "<group>";
+		};
+		D8D23114895659C51CA6C1FB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				152A83D89C081937512CDC7E /* Pods-OneLab.debug.xcconfig */,
+				8A5FB60CB7B8C1E73014ADF2 /* Pods-OneLab.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B39D619629D2BE980026657B /* OneLab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B39D61AB29D2BE9B0026657B /* Build configuration list for PBXNativeTarget "OneLab" */;
+			buildPhases = (
+				06690F67A4163E89090E1C52 /* [CP] Check Pods Manifest.lock */,
+				B39D619329D2BE980026657B /* Sources */,
+				B39D619429D2BE980026657B /* Frameworks */,
+				B39D619529D2BE980026657B /* Resources */,
+				F56D673010C4DC96F91346B2 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OneLab;
+			productName = OneLab;
+			productReference = B39D619729D2BE980026657B /* OneLab.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B39D618F29D2BE980026657B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					B39D619629D2BE980026657B = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = B39D619229D2BE980026657B /* Build configuration list for PBXProject "OneLab" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B39D618E29D2BE980026657B;
+			productRefGroup = B39D619829D2BE980026657B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B39D619629D2BE980026657B /* OneLab */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B39D619529D2BE980026657B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B39D61A729D2BE9B0026657B /* LaunchScreen.storyboard in Resources */,
+				B39D61A429D2BE9B0026657B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		06690F67A4163E89090E1C52 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OneLab-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F56D673010C4DC96F91346B2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OneLab/Pods-OneLab-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OneLab/Pods-OneLab-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OneLab/Pods-OneLab-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B39D619329D2BE980026657B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3F4011129D36811002DE985 /* TwoDifferentWidthViewController.swift in Sources */,
+				B39D619F29D2BE990026657B /* ViewController.swift in Sources */,
+				B39D619B29D2BE980026657B /* AppDelegate.swift in Sources */,
+				B39D61B129D34C2C0026657B /* ItemViewController.swift in Sources */,
+				B39D619D29D2BE990026657B /* SceneDelegate.swift in Sources */,
+				B3F4010D29D3647A002DE985 /* AdaptiveViewController.swift in Sources */,
+				B3F4010F29D366F4002DE985 /* TwoEqualWidthViewController.swift in Sources */,
+				B39D61AF29D30AF50026657B /* StackViewViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B39D61A529D2BE9B0026657B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B39D61A629D2BE9B0026657B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B39D61A929D2BE9B0026657B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B39D61AA29D2BE9B0026657B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B39D61AC29D2BE9B0026657B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 152A83D89C081937512CDC7E /* Pods-OneLab.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OneLab/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Aruzhan-Zhakhan.OneLab";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B39D61AD29D2BE9B0026657B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A5FB60CB7B8C1E73014ADF2 /* Pods-OneLab.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OneLab/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Aruzhan-Zhakhan.OneLab";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B39D619229D2BE980026657B /* Build configuration list for PBXProject "OneLab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B39D61A929D2BE9B0026657B /* Debug */,
+				B39D61AA29D2BE9B0026657B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B39D61AB29D2BE9B0026657B /* Build configuration list for PBXNativeTarget "OneLab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B39D61AC29D2BE9B0026657B /* Debug */,
+				B39D61AD29D2BE9B0026657B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B39D618F29D2BE980026657B /* Project object */;
+}
