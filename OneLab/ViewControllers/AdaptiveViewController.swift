@@ -15,7 +15,7 @@ class AdaptiveViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.addSubview(blueView)
-        blueView.backgroundColor = .blue
+        blueView.backgroundColor = .green
         
         blueView.snp.makeConstraints{make in
             make.leading.equalToSuperview().offset(20)
